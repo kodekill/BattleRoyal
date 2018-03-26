@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <title>
+    Boats 'n Booty
+  </title>
+  <head>
+  	<meta charset="utf-8">
+    	<link rel="stylesheet" type="text/css" href="style.css">
+      <header>
+        <h1>Boat Practice</h1>
+      </header>
+  </head>
+
+  <!--<body background="js/background.png">   -->
+  <body>
+    <script src ="js/keyboard.js"></script> 
+    <script src ="js/main.js"></script> 
+    <script src ="js/playSounds.js"></script> 
+    <script src ="js/player.js"></script> 
+  	<script src ="js/sprites.js"></script> 
+  </body>
+
+  <div class="menu">
+      <form action="">
+        <input type="button" class="button" value="Start Game" onclick="loadGame()" /><br>
+        <input type="button" class="button" value="End Game" onclick="endGame()" /><br>
+        <p><b>Controls:</b></p>
+        <p class ="small">Up:    <b>W</b> </p>
+        <p class ="small">Down:  <b>S</b> </p>
+        <p class ="small">Left:  <b>A</b> </p>
+        <p class ="small">Right: <b>D</b></p><br>
+      </form>
+  </div> 
+
+
+
+
+ <canvas class= "myCanvas" id="myCanvas" width="1050" height="1050" style="border:2px solid #000000; background-image: url('./sprites/Water.png');"> 
+    Your browser does not support the canvas element.
+ </canvas>     
+</html>

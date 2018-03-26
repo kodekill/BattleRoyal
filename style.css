@@ -1,0 +1,100 @@
+ header {
+   widows: 100%;
+   padding: .5em;
+   color: black;
+   background-color: #424d5f;
+   clear: left;
+   text-align: center;
+ }
+
+ footer{
+   position: absolute;
+   bottom: 0;
+   width: 99%;
+   height: 3%;
+   background: #424d5f;
+   text-align: center;
+   color: white;
+	 
+ }
+
+ textarea {
+   width: 360px;
+   text-align: left;
+ }
+
+
+ .instruct {
+   font-size: 14px;
+   font-weight: bold;
+   text-indent: 10px;
+ }
+
+ .menu {
+   position: fixed;
+   margin: left;
+   width: 150px;
+   height: 85%;
+   border: 3px solid gray;
+   padding: 10px;
+}
+
+.myCanvas {
+   background: white;
+   padding-left: 0;
+   padding-right: 0;
+   margin-top: 25px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: auto;
+   display: block;
+   width: 800px;
+   height: 800px;
+   overflow:hidden;	
+}
+
+ .button {
+   background-color: white;
+   margin: 2px;
+   text-align: center;
+   border: true;
+   border-color: black;
+   transition-duration: 0.4s;
+ }
+
+ .button:hover {
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.34),0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+ output {
+   float: left;
+   max-width: 160px;
+   margin: 0;
+   padding: 1em;
+   text-align: center;
+ }
+ 
+ nav ul {
+   list-style-type: none;
+   padding: 0;
+ }
+ 
+ nav ul a {
+   text-decoration: none;
+ }
+ 
+ article {
+   margin-left: 400px;
+   border-left: 1px solid gray;
+   padding: 1em;
+   overflow: hidden;
+ }
+
+p.small {
+    line-height: 0.5;
+}
+
+p.score {
+	background-color: white;
+	color: red;
+}

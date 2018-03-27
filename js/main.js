@@ -1,4 +1,5 @@
 var myBoat;
+var image; 
 let lastTimeStamp = performance.now();
 
 window.onload = function() {

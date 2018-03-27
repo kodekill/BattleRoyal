@@ -14,27 +14,27 @@ document.addEventListener("keyup", keyUpHandler, false);
 
 function keyDownHandler(e){
     if(e.keyCode == 39 || e.keyCode == 68){                  //Right
-        console.log("Right pressed");
+        //console.log("Right pressed");
         rightKey = true;
     }
     else if(e.keyCode == 37 || e.keyCode == 65){              //Left
-        console.log("Left pressed");
+        //console.log("Left pressed");
         leftKey = true;
     }
     else if(e.keyCode == 38 || e.keyCode == 87){              //Up
-        console.log("Up pressed");
+        //console.log("Up pressed");
         upKey = true;
     }
     else if(e.keyCode == 40 || e.keyCode == 83){              //Down
-        console.log("Down pressed");
+        //console.log("Down pressed");
         downKey = true;
     }
     else if(e.keyCode == 32){                                //Space
-        console.log("Space pressed");
+        //console.log("Space pressed");
         spaceKey = true;
     }
     else if(e.keyCode == 27){                                //Escape
-        console.log("Esc pressed");
+        //console.log("Esc pressed");
         //openNav();
         //reloadGame();
         escKey = true;
